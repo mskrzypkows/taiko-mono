@@ -10,7 +10,7 @@ tokio-util = { workspace = true }
 tracing.workspace = true
 alloy.workspace = true
 futures-util.workspace = true
-bindings.workspace = true
-metrics.workspace = true
-beacon.workspace = true
-utils.workspace = true
+bindings = { path = "../bindings" }
+metrics = { path = "../metrics" }
+beacon = { path = "../beacon" }
+utils = { path = "../utils" }

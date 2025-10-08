@@ -8,6 +8,6 @@ eyre = { workspace = true }
 tracing.workspace = true
 alloy.workspace = true
 futures-util.workspace = true
-bindings.workspace = true
-metrics.workspace = true
+bindings = { path = "../bindings" }
+metrics = { path = "../metrics" }
 tokio.workspace = true
