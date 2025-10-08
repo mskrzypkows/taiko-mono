@@ -1749,13 +1749,11 @@ version = "0.1.0"
 dependencies = [
  "alloy",
  "beacon",
- "bindings",
  "clap",
  "color-eyre",
  "config",
  "dotenvy",
  "eyre",
- "metrics",
  "monitor",
  "server",
  "tokio",

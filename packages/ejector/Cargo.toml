@@ -5,11 +5,8 @@ edition.workspace = true
 rust-version.workspace = true
 
 [dependencies]
-bindings = { path = "crates/bindings" }
 beacon = { path = "crates/beacon" }
-utils = { path = "crates/utils" }
 server = { path = "crates/server" }
-metrics = { path = "crates/metrics" }
 config = { path = "crates/config" }
 monitor = { path = "crates/monitor" }
 clap = { workspace = true }
